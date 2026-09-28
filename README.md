@@ -1,16 +1,25 @@
-# Focus Tracking App (Odaklanma Takibi Uygulaması)
+# Focus Productivity Tracker
 
-A mobile application developed with React Native (Expo) to track focus sessions and minimize distractions.
+React Native and Expo mobile application for tracking focused work and daily productivity. It includes a focus timer, distraction counter, categories, weekly charts, SQLite storage, and notifications.
 
-## Requirements
-- Node.js installed
-- Expo Go app installed on your mobile device
+## Features
 
-## How to Run the Project (Kurulum ve Çalıştırma)
+- Focus timer and distraction counter
+- Activity categories
+- Weekly productivity charts
+- Local SQLite storage
+- Notifications and haptic feedback
+- Android, iOS, and web targets through Expo
 
-Since `node_modules` are excluded, please follow these steps:
+## Run Locally
 
-1. **Install Dependencies:**
-   Open the terminal in the project directory and run:
-   ```bash
-   npm install
+```bash
+npm install
+npx expo start
+```
+
+`app/` contains Expo Router screens and `components/` contains timer, chart, category, and statistics components.
+
+## Status
+
+Educational mobile productivity application.
